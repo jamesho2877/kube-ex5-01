@@ -1,0 +1,7 @@
+apiVersion: stable.jms/v1
+kind: Dummysite
+metadata:
+  name: dummysite-stackoverflow-com
+spec:
+  website_url: stackoverflow.com
+  image: jamesho287/dummysite:v0.2
